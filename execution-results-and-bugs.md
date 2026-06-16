@@ -61,14 +61,13 @@ Users should not be able to place pre-match bets on events that have already hap
 
 Past matches are displayed under the **Upcoming Football Matches** section:
 
-<img width="756" height="432" alt="bug-001-date-filter-past-range" src="https://github.com/user-attachments/assets/c0c568d0-8ae5-4cbc-8887-0e86a3489aea" />
-
-![Uploading bug-001-date-filter-past-range.png…]()
+<img width="703" height="206" alt="bug-001-past-matches-visible" src="https://github.com/user-attachments/assets/f25b3ce2-e90b-46f1-825a-04f4beb558df" />
 
 
 The date filter allows selecting a past date range and still returns betting events:
 
-![Date filter allows past date range](screenshots/bug-001-date-filter-past-range.png)
+
+<img width="756" height="432" alt="bug-001-date-filter-past-range" src="https://github.com/user-attachments/assets/24259862-63e9-4bf0-ac22-4b082d284134" />
 
 
 ---
@@ -137,11 +136,13 @@ This can lead to user confusion, loss of trust, and possible disputes around bet
 
 Before placement, the Bet Slip shows `AC Milan vs Napoli`, `Away`, odds `3.20`, stake `€10.00`, and potential payout `€32.00`:
 
-![Bet Slip before placement](screenshots/bug-002-bet-slip-before-placement.png)
+<img width="1503" height="682" alt="bug-002-bet-slip-before-placement" src="https://github.com/user-attachments/assets/c1eaa39f-934f-444c-9f4a-6aa0c9cf82ab" />
+
 
 After placement, the receipt shows reversed match order and incorrect potential payout:
 
-![Receipt after placement](screenshots/bug-002-receipt-after-placement.png)
+<img width="504" height="550" alt="bug-002-receipt-after-placement" src="https://github.com/user-attachments/assets/6bca81b8-84ed-42d5-845e-84b3b0ebcc73" />
+
 
 ---
 
@@ -233,7 +234,8 @@ This reduces usability and makes it harder for users to find betting options tha
 
 The Odds filter shows a selected range, but the list still contains matches outside that range and the match count remains unchanged:
 
-![Odds filter does not update match list](screenshots/bug-004-odds-filter-not-updating-list.png)
+<img width="756" height="432" alt="bug-004-odds-filter-not-updating-list" src="https://github.com/user-attachments/assets/c9a7486f-bb0b-4c99-89f3-3e56ac8e3fbd" />
+
 
 ---
 
