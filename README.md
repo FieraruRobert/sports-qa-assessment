@@ -80,7 +80,7 @@ pytest -m api
 Run with a custom user id:
 
 ```bash
-pytest --user-id=robert99df
+pytest --user-id==<your-user-id>
 ```
 
 ## Notes
