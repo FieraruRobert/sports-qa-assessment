@@ -61,12 +61,15 @@ Users should not be able to place pre-match bets on events that have already hap
 
 Past matches are displayed under the **Upcoming Football Matches** section:
 
-![Past matches visible in upcoming matches list](screenshots/bug-001-past-ma![Uploading bug-001-date-filter-past-range.png…]()
-tches-visible.png)
+<img width="756" height="432" alt="bug-001-date-filter-past-range" src="https://github.com/user-attachments/assets/c0c568d0-8ae5-4cbc-8887-0e86a3489aea" />
+
+![Uploading bug-001-date-filter-past-range.png…]()
+
 
 The date filter allows selecting a past date range and still returns betting events:
 
 ![Date filter allows past date range](screenshots/bug-001-date-filter-past-range.png)
+
 
 ---
 
