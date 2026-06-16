@@ -185,16 +185,13 @@ For a betting flow, delayed or stale balance updates can reduce user trust and m
 
 ### Evidence
 
+Balance before refreshing
 <img width="1393" height="1026" alt="bug-003-success-receipt-before-refresh" src="https://github.com/user-attachments/assets/46c04dbe-bf0e-4327-93e6-46d816cf39c0" />
 
+Balance after refreshing 
 <img width="1323" height="763" alt="bug-003-balance-after-refresh" src="https://github.com/user-attachments/assets/8ce34e9d-03d3-4181-b320-81764c740afe" />
 
 
-Recommended evidence to add if time allows:
-
-- Screenshot before placing the bet showing the initial balance.
-- Screenshot after closing the success receipt showing the unchanged balance.
-- Screenshot after refresh showing the updated balance.
 
 ---
 
