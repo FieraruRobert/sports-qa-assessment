@@ -237,6 +237,47 @@ The Odds filter shows a selected range, but the list still contains matches outs
 <img width="756" height="432" alt="bug-004-odds-filter-not-updating-list" src="https://github.com/user-attachments/assets/c9a7486f-bb0b-4c99-89f3-3e56ac8e3fbd" />
 
 
+
+---
+## BUG-005 — Stake Input Accepts Leading Zero Values Without Validation or Normalization
+
+**Severity:** Medium  
+**Related scenario:** SBP-002 Stake validation and balance protection
+
+### Reproduction steps
+
+1. Open the application using a valid user ID:
+   `https://qae-assignment-tau.vercel.app/?user-id=<your-user-id>`
+2. Select any available match outcome.
+3. Enter `050` in the stake field.
+4. Observe the Bet Slip totals and Place Bet button.
+
+### Expected result
+
+The stake input should either:
+
+- reject values with leading zeroes, or
+- normalize the value clearly to `50.00` in the input field.
+
+The value displayed in the stake field, Total Stake, and Potential Payout should be consistent and unambiguous.
+
+### Actual result
+
+The stake field accepts `050`.
+
+The Bet Slip interprets it as `€50.00`, calculates potential payout, and enables the Place Bet button.
+
+### Business impact
+
+This can confuse users because the entered value does not visually match the interpreted stake amount.
+
+In a betting flow, stake values should be clear and unambiguous before the user places a bet. Ambiguous stake formatting can reduce user trust and may lead to accidental bets with an unintended stake amount.
+
+### Evidence
+<img width="259" height="229" alt="bug-005-leading-zero-stake-accepted" src="https://github.com/user-attachments/assets/779b33b9-b2dd-4598-8019-6105d5b5a9d9" />
+
+
+
 ---
 
 ## Exploratory checks performed
