@@ -185,7 +185,10 @@ For a betting flow, delayed or stale balance updates can reduce user trust and m
 
 ### Evidence
 
-Manual observation during the bet placement flow. No screenshot pair was captured for this issue yet.
+<img width="1393" height="1026" alt="bug-003-success-receipt-before-refresh" src="https://github.com/user-attachments/assets/46c04dbe-bf0e-4327-93e6-46d816cf39c0" />
+
+<img width="1323" height="763" alt="bug-003-balance-after-refresh" src="https://github.com/user-attachments/assets/8ce34e9d-03d3-4181-b320-81764c740afe" />
+
 
 Recommended evidence to add if time allows:
 
