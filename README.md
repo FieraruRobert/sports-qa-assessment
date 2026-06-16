@@ -102,13 +102,13 @@ The automation project is under `automation/` and uses the stack required by the
 The tests use the following user id by default:
 
 ```bash
-candidate-XeYACiwXZx
+<your-user-id>
 ```
 
 It can be overridden through an environment variable:
 
 ```bash
-export TEST_USER_ID="candidate-XeYACiwXZx"
+export TEST_USER_ID="<your-user-id>"
 ```
 
 The application URL can also be overridden if needed:
